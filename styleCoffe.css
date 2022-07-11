@@ -1,0 +1,77 @@
+body{
+  padding: 20px;
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family :sans-serif;
+}
+h1,h2,p {text-align: center;}
+h1, h2 {
+  font-family: Impact,serif;
+}
+/*  hr divisor */
+hr { height:4px;
+  /*   lo primero le da el color y lo segundo que todos tengan el mismo color*/
+  background-color :brown;
+  border-color:brown;
+}
+/*  max-width ta,año del cuadro 
+  margin-left area del margen
+  width es el ancho
+  text-align alineacion del texo 
+  display alineacion */
+.menu {
+    max-width : 500px;
+    margin-left : auto ;
+    margin-right : auto;
+    width: 80%;
+    background-color: burlywood;
+    padding :20px;
+    }
+h1 {
+  /*eliminaría el margen superior de un documento*/margin-top : 0;
+  
+  font-size:40px;
+  margin-bottom :15px;}
+h2{font-size:30px}
+
+.flavor , .dessert{
+  text-align : left;
+  width:75%;
+}
+.price{
+    width:25%;
+    text-align:right
+} 
+/*margin-top establece el margen superior de un elemento especificando una longitud o un porcentaje*/ 
+/*propiedad de un elemento que establece el espacio requerido en la parte inferior de un elemento. También se permiten valores negativos.*/ 
+.item p{ 
+  font-size :18px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display : inline-block
+    
+}
+
+.established {
+  font-style: italic;
+}
+.bottom-line {
+  margin-top: 25px;
+}
+/*FOOTER*/
+footer {font-size:14px;}
+/* Cambia el color de a*/
+a {color: black;}
+/* cambia el color del link de website que re direcciona*/
+a:visited {
+  color: black;
+}
+/* Selecciona cualquier elemento <a> cuando está "mantenido (hovered)" */
+a:hover{color : brown;}
+/* Selecciona cualquier <a> que esté siendo activado */
+a:active{color: brown;}
+
+.address {margin-bottom :5px;}
+img {display :block;
+  margin-left :auto;
+  margin-right :auto;
+  margin-top : -25px;}
